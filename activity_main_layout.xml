@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- 这是此应用 MainActivity 的布局 xml 文件 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- 显示检测结果 -->
+    <TextView
+        android:layout_gravity="start|center_vertical"
+        android:paddingTop="18dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/activity_main_text"
+        android:paddingStart="?android:attr/dialogPreferredPadding"
+        android:paddingEnd="?android:attr/dialogPreferredPadding"
+        style="@android:style/TextAppearance.Material.Subhead" />
+
+    <!-- 提供点按右下角“确定”键快捷退出应用的功能 -->
+    <LinearLayout
+        android:gravity="bottom"
+        android:orientation="horizontal"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        style="?android:attr/buttonBarStyle">
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1.0" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@android:string/yes"
+            android:onClick="onCancelButtonClicked"
+            style="?android:attr/buttonBarNegativeButtonStyle" />
+    </LinearLayout>
+
+</LinearLayout>
