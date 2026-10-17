@@ -2,7 +2,7 @@
 此应用可以检测出您设备屏幕的当前 DPI 分级，无需任何权限。以 AlertDialog 形式显示界面及检测结果，主题为 DeviceDefault 并适配深色主题，深色和浅色主题可随系统变化而变化。最低支持 Android 5。已引入 英语、阿拉伯语、法语、日语、韩语、俄语、简体中文 和 繁体中文 的语言支持。
 
 下面是此应用的深色主题界面截图 (平板)：
-![Screenshot_20261017_194919_com.hlfei.android.screen_dpi_level_checker.jpg](https://github.com/user-attachments/assets/326aad25-fc59-4973-852b-443445c8a3e3
+![Screenshot_20261017_194919_com.hlfei.android.screen_dpi_level_checker.jpg](https://github.com/user-attachments/assets/326aad25-fc59-4973-852b-443445c8a3e3)
 
 浅色主题界面截图 (平板)：
 ![Screenshot_20261017_194928_com.hlfei.android.screen_dpi_level_checker.jpg](https://github.com/user-attachments/assets/dfb80af3-2274-46f5-a9b5-8e02e477f97d)
