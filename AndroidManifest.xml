@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    android:versionCode="1"
+    android:versionName="1"
+    android:compileSdkVersion="31"
+    android:compileSdkVersionCodename="12"
+    package="com.hlfei.android.screen_dpi_level_checker"
+    platformBuildVersionCode="31"
+    platformBuildVersionName="12">
+
+    <!-- 最低系统 Android 5，目标系统 Android 17 -->
+    <uses-sdk
+        android:minSdkVersion="21"
+        android:targetSdkVersion="37" />
+
+    <application
+        android:theme="@style/AppTheme"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:appCategory="productivity">
+
+        <!-- 此应用的核心功能，并在主屏幕上显示及支持打开 -->
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action
+                    android:name="android.intent.action.MAIN" />
+                <category
+                    android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+    </application>
+</manifest>
